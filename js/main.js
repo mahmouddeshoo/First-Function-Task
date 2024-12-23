@@ -41,7 +41,7 @@ console.log(`======= Javascript Function Task =======`);
 function duplicater(num) {
     let emptyArray = [];
     for (let i = 0; i < num.length; i++){
-        if (!emptyArray.includes(num[i])){
+        if (emptyArray.includes(num[i])){
             emptyArray.push(num[i]);
         }
     }
